@@ -1,0 +1,112 @@
+.subscribe-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.subscribe-left {
+    width: 450px;
+    padding: 0px 50px 0px 40px;
+}
+
+.subscribe-title {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.mailcheck {
+    display: flex;    
+    justify-content: space-between;
+}
+
+.mailcheck p {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.errorchecker {
+    color: red;
+}
+
+/* .subscribe-right img {
+    width: 100%;
+    height: 100%;
+} */
+
+.subscribe-right {
+    background-image: url("../assets/images/illustration-sign-up-desktop.svg");
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+}
+
+.point img {
+    margin-right: 8px;
+}
+
+span {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+span input {
+    width: 94%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe-button {
+    position: relative;
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+    padding: 15px;
+    border-style: none;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Extra small devices with 600px and below.  */
+@media only screen and (max-width: 375px) { 
+
+    .subscribe-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .subscribe-right {
+        width: 100vw;
+        height: 300px;
+        background-size: cover;
+    }
+
+    .subscribe-left {
+        width: auto;
+        padding: 10px;
+    }
+    
+    .subscribe-title {
+        font-size: 2rem;
+    }
+
+
+ }
+
+
